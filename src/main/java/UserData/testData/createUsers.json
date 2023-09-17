@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "username": "uname1",
+    "firstName": "abby",
+    "lastName": "shabby",
+    "email": "vk@gmail.com",
+    "password": "pwd@123",
+    "phone": "+91897439224",
+    "userStatus": 1
+  },
+  {
+    "id": 2,
+    "username": "uname2",
+    "firstName": "abby",
+    "lastName": "shabby",
+    "email": "vk@gmail.com",
+    "password": "pwd@123",
+    "phone": "+918974393344",
+    "userStatus": 1
+  },
+  {
+    "id": 3,
+    "username": "uname3",
+    "firstName": "abby",
+    "lastName": "shabby",
+    "email": "vk@gmail.com",
+    "password": "pwd@123",
+    "phone": "+91897439233",
+    "userStatus": 1
+  },
+  {
+    "id": 4,
+    "username": "uname4",
+    "firstName": "abby",
+    "lastName": "shabby",
+    "email": "vk@gmail.com",
+    "password": "pwd@123",
+    "phone": "+91897439233",
+    "userStatus": 1
+  }
+]

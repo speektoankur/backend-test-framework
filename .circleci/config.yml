@@ -1,0 +1,27 @@
+version: 2.1
+executors:
+  java11-executor:
+    docker:
+      - image: cimg/openjdk:11.0.0
+jobs:
+  build:
+    executor: java11-executor
+    steps:
+      - checkout  # Check out the code from the repository
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "pom.xml" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+      - run:
+          name: Download Dependencies
+          command: mvn dependency:go-offline
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: v1-dependencies-{{ checksum "pom.xml" }}
+      - run:
+          name: Build and Test
+          command: mvn test -DsuiteXmlFile=smokeTests.xml
+      - store_artifacts:
+          path: target/surefire-reports/emailable-report.html

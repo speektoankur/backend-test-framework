@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "category": {
+      "id": 22,
+      "name": "category22_updated"
+    },
+    "name": "doggie_updated",
+    "photoUrls": [
+      "www.pet-photo.com"
+    ],
+    "tags": [
+      {
+        "id": 39,
+        "name": "tag33_updated"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "category": {
+      "id": 222,
+      "name": "category222"
+    },
+    "name": "meao_updated",
+    "photoUrls": [
+      "www.pet-photo2.com"
+    ],
+    "tags": [
+      {
+        "id": 332,
+        "name": "tag332_updated"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 3,
+    "category": {
+      "id": 22,
+      "name": "category223_updated"
+    },
+    "name": "birds_updated",
+    "photoUrls": [
+      "www.pet-photo3-updated.com"
+    ],
+    "tags": [
+      {
+        "id": 332,
+        "name": "tag332"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "category": {
+      "id": 224,
+      "name": "category224_updated"
+    },
+    "name": "reptiles_updated",
+    "photoUrls": [
+      "www.pet-photo4-updated.com"
+    ],
+    "tags": [
+      {
+        "id": 334,
+        "name": "tag332"
+      }
+    ],
+    "status": "available"
+  }
+]
