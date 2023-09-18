@@ -1,6 +1,6 @@
 # backend-test-framework
 
-![Screen Shot 2023-09-17 at 23 43 05](https://github.com/speektoankur/backend-test-framework/assets/101249539/f84844b7-2001-4718-9c8a-6b620dd28bc7)
+![Screen Shot 2023-09-18 at 09 57 22](https://github.com/speektoankur/backend-test-framework/assets/101249539/7f832f16-74a7-46e9-8e36-c7caed04b649)
 
 Cicle CI - JobExecution
 
